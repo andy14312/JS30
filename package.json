@@ -1,0 +1,20 @@
+{
+  "name": "js30",
+  "version": "1.0.0",
+  "description": "portal to showcase all the 30 apps developed by WesBos",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andy14312/JS30.git"
+  },
+  "author": "anand mutyala",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andy14312/JS30/issues"
+  },
+  "homepage": "https://github.com/andy14312/JS30#readme"
+}

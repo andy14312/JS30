@@ -1,3 +1,3 @@
-#drumkit
+#JS30
 
-A drum kit like experience on web with some cool audio files
+My version of all the 30 cool javascript apps made by WesBos
