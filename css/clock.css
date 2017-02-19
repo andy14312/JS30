@@ -1,0 +1,34 @@
+body {
+  background-color: #014747;
+  margin: 0;
+  padding: 0; }
+
+.clock {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; }
+  .clock .clock-face {
+    width: 20rem;
+    height: 20rem;
+    border: 0.5rem solid #BDFCFC;
+    border-radius: 50%;
+    box-shadow: 0 0 1.5rem #BDFCFC;
+    position: relative; }
+  .clock .hand {
+    height: 0.3rem;
+    position: absolute;
+    top: 50%;
+    background-color: #BDFCFC;
+    transform-origin: 100%;
+    border-radius: 1rem;
+    right: 50%;
+    transform: rotate(90deg);
+    box-shadow: 0 0 0.4rem #BDFCFC; }
+  .clock .hour-hand {
+    width: 30%; }
+  .clock .min-hand {
+    width: 40%; }
+  .clock .sec-hand {
+    width: 45%; }

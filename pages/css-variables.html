@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>CSS Variables and JS</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/css-variables.css">
+        <link rel="author" href="humans.txt">
+    </head>
+    <body>
+        <h1>Playing with <span class="highlight">CSS Variables</span> and <span class="highlight">JS</span></h1>
+        <div class="controls">
+        	<div class="control">
+	        	<label for="sizing">Spacing:</label>
+	        	<input name="sizing" type="range" min="20" max="35" value="10" data-unit="rem"/>
+        	</div>
+        	<div class="control">
+	        	<label for="blur">Blur:</label>
+	        	<input name="blur" type="range" min="0" max="100" value="0" data-unit="px"/>
+        	</div>
+        	<div class="control">
+	        	<label for="theme">Theme:</label>
+	        	<input name="theme" type="color" value="#cccccc"/>
+        	</div>
+        </div>
+        <div class="image-wrapper">
+        	<img src="http://cdn.wonderfulengineering.com/wp-content/uploads/2016/01/Free-wallpapers-13.jpg">
+        	<img src="http://cdn.wonderfulengineering.com/wp-content/uploads/2014/06/Download-wallpaper-15.jpg">
+        	<img src="http://cdn.wonderfulengineering.com/wp-content/uploads/2014/06/galaxy-wallpapers-17.jpg">
+        </div>
+        <script src="../js/css-variables.js"></script>
+    </body>
+</html>
