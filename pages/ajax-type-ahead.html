@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="search for cities and states of US">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Ajax type ahead</title>
+        <link rel="stylesheet" href="../css/vendor/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/ajax-type-ahead.css">
+        <link rel="author" href="humans.txt">
+    </head>
+    <body>
+        <div class="container">
+        	<div class="row">
+        		<div class="col-md-6 form-container">
+        			<form id="placeSearchForm">
+        				<input class="search" autofocus placeholder="Search for city/state"/>
+        				<div class="searchBorder"></div>
+        			</form>
+        		</div>
+        		<div class="col-md-6 suggestions-container">
+        			<ul class="suggestions list-group">
+        			</ul>
+        		</div>
+        	</div>
+        </div>
+        <script src="../js/ajax-type-ahead.js"></script>
+    </body>
+</html>

@@ -1,0 +1,67 @@
+$yellowshade:#966203;
+$greyshade:#ccc;
+$lightyellow: #ffcd72;
+$purpleshade: #960387;
+.form-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: $yellowshade;
+	input {
+		width: 30rem;
+	    height: 6rem;
+	    font-size: 3rem;
+	    border-bottom: 4px solid black;
+	    padding-left: 1rem;
+	    background: none;
+	    border: none;
+	    color: $greyshade;
+	    &:focus {
+	    	outline: none;
+	    }
+	    &+.searchBorder {
+	    	transition: width 0.2s ease-in-out;
+	    	height: 0.2rem;
+	    	background: #fff;
+	    	width: 0;
+	    	&.show {
+	    		width: 100%;
+	    	}
+	    }
+	}
+}
+
+.suggestions-container {
+	background-color: $purpleshade;
+	height: 100vh;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	.suggestions {
+		margin: 0;
+		height: 100%;
+		overflow: auto;
+		color: #fff;
+		border: none;
+		li {
+			border: none;
+			background: rgba(0,0,0,0.1);
+			.cityName,.stateName {
+				.highlight {
+					background-color: $lightyellow;
+					color: $purpleshade;
+				}
+				text-transform: capitalize;
+			}
+			.header {
+				font-weight: bold;
+			}
+			>span {
+				text-align: center;
+				display: inline-block;
+				width: 32.33%;
+			}
+		}
+	}
+}
