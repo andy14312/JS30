@@ -46,5 +46,5 @@
 					</li>`);
 		suggestions.innerHTML = listItems.length>1?listItems.join(''):`<li class="list-group-item">${noRecordsFound}</li>`;
 	}
-
+	console.dirxml(suggestions);
 })();
