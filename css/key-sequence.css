@@ -1,0 +1,24 @@
+body {
+  font-family: verdana arial; }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; }
+
+.guess-me {
+  margin: 2rem;
+  color: #ccc;
+  font: 5rem arial; }
+
+.my-name, .lost-it {
+  color: #bada55;
+  font: 7rem arial;
+  opacity: 0;
+  transform: translateY(20%);
+  transition: transform 0.25s linear; }
+  .my-name.show, .lost-it.show {
+    opacity: 1;
+    transform: translateY(0); }
